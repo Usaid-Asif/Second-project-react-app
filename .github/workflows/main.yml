@@ -38,4 +38,4 @@ jobs:
        run: npm install -g surge
        
     -  name: deploying on surge
-       run: surge ./bulid http://usaid-second-react-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}}  
+       run: surge ./bulid http://usaid-second-react-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}  
